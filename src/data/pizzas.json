@@ -1,0 +1,24 @@
+[
+  {
+    "id": "muzzarella",
+    "name": "Muzzarella",
+    "desc": "Salsa de tomate, muzzarella y aceitunas.",
+    "price": 11000,
+    "glb": "https://modelviewer.dev/shared-assets/models/Astronaut.glb",
+    "usdz": "https://modelviewer.dev/shared-assets/models/Astronaut.usdz"
+  },
+  {
+    "id": "napolitana",
+    "name": "Napolitana",
+    "desc": "Muzzarella, rodajas de tomate, ajo y albahaca.",
+    "price": 12500,
+    "glb": "https://modelviewer.dev/shared-assets/models/Horse.glb"
+  },
+  {
+    "id": "fugazzeta",
+    "name": "Fugazzeta",
+    "desc": "Doble masa rellena de muzzarella y cubierta de cebolla.",
+    "price": 14000,
+    "glb": "https://modelviewer.dev/shared-assets/models/RobotExpressive.glb"
+  }
+]

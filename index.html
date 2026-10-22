@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Menú AR</title>
+</head>
+<body>
+  <main>
+    <header><h1>Nuestras pizzas</h1></header>
+
+    <div class="stage">
+      <model-viewer id="viewer"
+        alt="Modelo 3D de la pizza"
+        ar ar-modes="webxr scene-viewer quick-look" ar-scale="fixed"
+        camera-controls auto-rotate shadow-intensity="1" environment-image="neutral">
+        <button slot="ar-button" class="ar-btn">Ver en tu mesa</button>
+      </model-viewer>
+    </div>
+
+    <section class="detail">
+      <h2 id="name"></h2>
+      <p id="desc"></p>
+      <div class="price" id="price"></div>
+    </section>
+
+    <section class="list" id="list" aria-label="Lista de pizzas"></section>
+  </main>
+
+  <script type="module" src="/src/main.js"></script>
+</body>
+</html>

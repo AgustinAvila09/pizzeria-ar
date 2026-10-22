@@ -1,0 +1,17 @@
+{
+  "name": "pizzeria-ar",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host",
+    "build": "vite build",
+    "preview": "vite preview --host"
+  },
+  "dependencies": {
+    "@google/model-viewer": "^3.5.0"
+  },
+  "devDependencies": {
+    "vite": "^5.4.0"
+  }
+}
